@@ -1,0 +1,4 @@
+/* interpolate clamp */
+@function interpolate-clamp($code) {
+  @return '#{"'+$code+'"};';
+}

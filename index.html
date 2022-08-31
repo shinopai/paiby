@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="public/css/style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- slick style -->
+    <link rel="stylesheet" href="./public/css/slick/slick.css" />
+    <link rel="stylesheet" href="./public/css/slick/slick-theme.css" />
+
+    <title>PAIBY CAFÉ / パイビィカフェ 公式サイト</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="wrap flex">
+        <div class="header__nav flex">
+          <ul class="header__list before flex">
+            <a href="#" class="contents">
+              <h1 class="contents">
+                <li>
+                  <img
+                    src="./public/images/logo_teacup.png"
+                    alt="paiby cafe"
+                    srcset=""
+                    class="header__logo--before"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./public/images/logo_brand.png"
+                    alt="paiby cafe"
+                    srcset=""
+                    class="header__logo--after"
+                  />
+                </li>
+              </h1>
+            </a>
+            <li>
+              <span class="header__balloon">TOKYO</span>
+            </li>
+          </ul>
+          <ul class="header__list after flex">
+            <li class="header__item"><a href="#" class="contents">TOP</a></li>
+            <li class="header__item"><a href="#news" class="contents">NEWS</a></li>
+            <li class="header__item"><a href="#story" class="contents">STORY</a></li>
+            <li class="header__item">
+              <a href="#story" class="contents">SPECIAL</a>
+            </li>
+            <li class="header__item"><a href="#menu" class="contents">MENU</a></li>
+            <li class="header__item"><a href="#goods" class="contents">GOODS</a></li>
+            <li class="header__item">
+              <a href="#access" class="contents">ACCESS</a>
+            </li>
+          </ul>
+          <!-- hamburger menu -->
+          <figure class="header__btn--menu">
+            <img src="./public/images/ico_hamburger.png" alt="hamburger menu" srcset="">
+          </figure>
+        </div>
+        <figure class="header__logo mx-auto">
+          <img
+            src="./public/images/logo_front01.png"
+            alt="paiby cafe summer"
+            srcset=""
+          />
+        </figure>
+        <figure class="header__img mx-auto">
+          <img
+            src="./public/images/img_front01.png"
+            alt="image summer"
+            srcset=""
+          />
+        </figure>
+      </div>
+    </header>
+
+    <!-- header nav for sp -->
+    <ul class="sp-nav">
+      <li>
+        <figure class="sp-nav__btn--close">
+          <img src="./public/images/ico_close.png" alt="close button" srcset="">
+        </figure>
+      </li>
+      <li class="sp-nav__item">
+        <a href="#" class="sp-nav__link top-link">TOP</a>
+        <li class="sp-nav__item"><a href="#news" class="sp-nav__link news-link">NEWS</a></li>
+        <li class="sp-nav__item"><a href="#story" class="sp-nav__link story-link">STORY</a></li>
+        <li class="sp-nav__item"><a href="#special" class="sp-nav__link special-link">SPECIAL</a></li>
+        <li class="sp-nav__item"><a href="#menu" class="sp-nav__link menu-link">MENU</a></li>
+        <li class="sp-nav__item"><a href="#goods" class="sp-nav__link goods-link">GOODS</a></li>
+        <li class="sp-nav__item"><a href="#access" class="sp-nav__link access-link">ACCESS</a></li>
+      </li>
+    </ul>
+
+    <!-- header nav yellow -->
+    <div class="header__nav yellow">
+      <div class="wrap flex">
+          <ul class="header__list before flex">
+            <a href="#" class="contents">
+              <h1 class="contents">
+                <li>
+                  <img
+                    src="./public/images/logo_teacup.png"
+                    alt="paiby cafe"
+                    srcset=""
+                    class="header__logo--before"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./public/images/logo_brand.png"
+                    alt="paiby cafe"
+                    srcset=""
+                    class="header__logo--after"
+                  />
+                </li>
+              </h1>
+            </a>
+            <li>
+              <span class="header__balloon">TOKYO</span>
+            </li>
+          </ul>
+          <ul class="header__list after flex">
+            <li class="header__item"><a href="#" class="contents">TOP</a></li>
+            <li class="header__item"><a href="#news" class="contents">NEWS</a></li>
+            <li class="header__item"><a href="#story" class="contents">STORY</a></li>
+            <li class="header__item">
+              <a href="#story" class="contents">SPECIAL</a>
+            </li>
+            <li class="header__item"><a href="#menu" class="contents">MENU</a></li>
+            <li class="header__item"><a href="#goods" class="contents">GOODS</a></li>
+            <li class="header__item">
+              <a href="#access" class="contents">ACCESS</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+
+    <!-- main -->
+    <main>
+      <!-- we are open -->
+      <section class="open padding-y">
+        <div class="wrap">
+          <figure class="open__img--heading mx-auto">
+            <img
+              src="./public/images/txt_front01.png"
+              alt="we are open"
+              srcset=""
+            />
+          </figure>
+          <div class="open__flex flex">
+            <div class="open__flex-item flex">
+              <p class="open__label mx-auto">CAFE</p>
+              <p class="open__txt">予約制／お食事／一部グッズ</p>
+              <p class="open__name">カービィカフェ</p>
+              <p class="open__txt--place">
+                東京スカイツリータウン・ソラマチ 4F
+              </p>
+              <p class="open__txt--red">
+                &#9733;現在の営業時間&#9733;<br />10:00～22:00(ラストオーダー
+                21:00)<br /><span
+                  >※状況によって営業時間を変更する場合がございます。</span
+                >
+              </p>
+              <a href="#" class="open__link mx-auto">カフェを予約する</a>
+            </div>
+            <div class="open__flex-item flex">
+              <p class="open__label mx-auto">STORE</p>
+              <p class="open__txt">フリー入場制／グッズのみ</p>
+              <p class="open__name">
+                カービィカフェ<br /><span>ザ・ストア</span>
+              </p>
+              <p class="open__txt--place">
+                東京スカイツリータウン・ソラマチ 4F
+              </p>
+              <p class="open__txt--red">
+                &#9733;現在の営業時間&#9733;<br />10:00～21:00<br /><span
+                  >※状況によって営業時間を変更する場合がございます。</span
+                >
+              </p>
+              <a href="#" class="open__link mx-auto">ザ・ストアページへ</a>
+            </div>
+          </div>
+          <div class="open__dialog">
+            <p class="open__dialog-txt--red">
+              &#9733;感染拡大防止のための取り組み&#9733;
+            </p>
+            <p class="open__dialog-txt">
+              『カービィカフェ』、『カービィカフェ ザ・ストア』では、<br class="sm-none" />新型コロナウイルスをはじめとする感染症の予防と拡散防止のため、<br class="sm-none" />店舗ごとに安全対策を実施しながら営業しております。<br />状況によっては密な状態を避けるために入店制限を行う可能性がございます。<br />加えまして、お客さまにもマスク着用などのご協力を頂けますようお願いいたします。
+            </p>
+            <a href="#" class="open__dialog-link"
+              >取り組みについて詳しくはこちら</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- news -->
+      <section class="news padding-y" id="news">
+        <div class="wrap">
+          <h2 class="news__heading">NEWS</h2>
+          <ul class="news__list">
+            <li class="news__item">
+              <span class="news__date">22.08.29</span>
+              <a href="#" class="news__link"
+                >9/1(木)より期間限定新メニューが登場！</a
+              >
+            </li>
+            <li class="news__item">
+              <span class="news__date">22.08.29</span>
+              <a href="#" class="news__link"
+                >7/7(木)より「カービィカフェ Summer 2022」が開催(9/11まで)</a
+              >
+            </li>
+            <li class="news__item">
+              <span class="news__date">22.08.29</span>
+              <a href="#" class="news__link"
+                >4/1(金)より「星のカービィ」30周年を記念して限定メニューが登場！</a
+              >
+            </li>
+            <li class="news__item">
+              <span class="news__date">22.08.29</span>
+              <a href="#" class="news__link"
+                >10/8(金)よりテイクアウトメニューに「カービィバーガー」と「ワドルディバーガー」が登場</a
+              >
+            </li>
+            <li class="news__item">
+              <span class="news__date">22.08.29</span>
+              <a href="#" class="news__link"
+                >9/1(木)より期間限定新メニューが登場！</a
+              >
+            </li>
+          </ul>
+          <p class="news__txt">最新情報はtwitterを参照ください</p>
+          <a href="#" class="contents">
+            <div class="news__link--twitter mx-auto">
+              <i class="fab fa-twitter"></i>
+              <p>カービィカフェ 公式Twitter</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- story -->
+      <section class="story padding-y" id="story">
+        <div class="wrap">
+          <h2 class="story__heading">STORY</h2>
+          <h3 class="story__catch">まんまる桃と、<br class="pc-none">カービィカフェ<br class="pc-none"> Summer</h3>
+          <p class="story__txt">
+            今年もまたカービィカフェに、<br />みんながだいすきな夏がやってきました。
+          </p>
+          <p class="story__txt">
+            夏といえば、コックカワサキがつくってくれる、<br />とっておきの新メニュー！<br />ワドルディが、期待に胸をふくらませながら森をおさんぽしていると……、<br />そこには、たわわに実るみずみずしい桃が。
+          </p>
+          <p class="story__txt">
+            「あれれ？ ピンクでまんまるな桃って、なにかに似ているような……」
+          </p>
+          <p class="story__txt">
+            そこに、夏のメニューを誰よりもたのしみにしている<br />カービィがやってきました。
+          </p>
+          <p class="story__txt">
+            「そうか！ 桃ってカービィにそっくりなんだ！」
+          </p>
+          <p class="story__txt">
+            ギモンがすっきりしてうれしそうなワドルディと、<br />
+            ワドルディにつられてニコニコ顔のカービィ。<br />
+            そして、まんまるピンクのたくさんの桃。<br />
+            そんな夏のひとコマを眺めていたコックカワサキの頭のなかに、<br />
+            メニューのアイデアがつぎつぎとうかびます！
+          </p>
+          <p class="story__txt">
+            カービィみたいな桃をつかったパフェ、<br />
+            つめた〜いシュワシュワのソーダ、<br />
+            海のようにキラキラ輝く青いゼリー…。<br />
+            忘れないうちにと、みんなで桃をあつめて運んで、<br />
+            さっそく調理にとりかかります。
+          </p>
+          <p class="story__txt">
+            夏のまぶしい日ざしの下、<br />
+            たっぷりとインスピレーションをえた<br />
+            カービィたちがおくる“夏のカービィカフェ”を、<br />
+            どうぞおたのしみに！
+          </p>
+          <a href="#" class="story__link mx-auto">これまでのお話をみる</a>
+        </div>
+      </section>
+
+      <!-- special -->
+      <section class="special padding-y" id="special">
+        <div class="wrap">
+          <h2 class="special__heading">SPECIAL</h2>
+          <a href="#" class="contents">
+            <figure class="special__img">
+              <img
+                src="./public/images/img_front02.jpg"
+                alt="パイビィカフェ ポップアップストア"
+                srcset=""
+              />
+            </figure>
+          </a>
+        </div>
+      </section>
+
+      <!-- menu -->
+      <section class="menu padding-y" id="menu">
+        <div class="wrap">
+          <h2 class="menu__heading">MENU</h2>
+          <ul class="slide-items">
+            <li>
+              <a href="" class="contents"
+                ><img
+                  src="./public/images/img_front03.jpg"
+                  alt="TAKEOUT MENUあります"
+              /></a>
+            </li>
+            <li>
+              <a href="" class="contents"
+                ><img
+                  src="./public/images/img_front04.jpg"
+                  alt="How to Order TAKEOUT"
+              /></a>
+            </li>
+          </ul>
+          <div class="menu__flex flex">
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front05.jpg"
+                  alt="カービィのお菓子な食いしんぼうタルト"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのお菓子な食いしんぼうタルト</p>
+              <p class="menu__price">1,480yen <span>(税込1,628yen）</span></p>
+              <p class="menu__txt">
+                最新作『カービィのグルメフェス』をモチーフにしたデザートが登場です！<b
+                ></b>
+                ころがって、どんどん食べて、いちばん大きくなったら優勝！<br />
+                そんなグルメなフェスのステージを、イチゴとクリームのタルトで表現しました。<br />
+                お菓子な世界でグルメバトルを繰りひろげるカービィになった気分で、ぜひお楽しみください！
+              </p>
+              <p class="menu__date">&#9733;期間限定 9月1日(木)～12月31日(土)</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front06.jpg"
+                  alt="ワドワドワドルディのなかよしライスコロッケ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">
+                ワドワドワドルディのなかよしライスコロッケ
+              </p>
+              <p class="menu__price">1,680yen <span>(税込1,848yen）</span></p>
+              <p class="menu__txt">
+                ウィスピーウッズの森でひとやすみする、
+                いつもなかよしのワドルディたちをモチーフにした、おいしいライスコロッケ。<br />
+                夏野菜のサラダと一緒にワンプレートでお楽しみください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front07.jpg"
+                  alt="カービィのすいこみカプレーゼ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのすいこみカプレーゼ</p>
+              <p class="menu__price">1,380yen <span>(税込1,518yen）</span></p>
+              <p class="menu__txt">
+                フレッシュトマトとモッツアレラチーズに、バジルソースを添えて。<br />
+                カービィが食べちゃう前にお召し上がりください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front05.jpg"
+                  alt="カービィのお菓子な食いしんぼうタルト"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのお菓子な食いしんぼうタルト</p>
+              <p class="menu__price">1,480yen <span>(税込1,628yen）</span></p>
+              <p class="menu__txt">
+                最新作『カービィのグルメフェス』をモチーフにしたデザートが登場です！<b
+                ></b>
+                ころがって、どんどん食べて、いちばん大きくなったら優勝！<br />
+                そんなグルメなフェスのステージを、イチゴとクリームのタルトで表現しました。<br />
+                お菓子な世界でグルメバトルを繰りひろげるカービィになった気分で、ぜひお楽しみください！
+              </p>
+              <p class="menu__date">&#9733;期間限定 9月1日(木)～12月31日(土)</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front06.jpg"
+                  alt="ワドワドワドルディのなかよしライスコロッケ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">
+                ワドワドワドルディのなかよしライスコロッケ
+              </p>
+              <p class="menu__price">1,680yen <span>(税込1,848yen）</span></p>
+              <p class="menu__txt">
+                ウィスピーウッズの森でひとやすみする、
+                いつもなかよしのワドルディたちをモチーフにした、おいしいライスコロッケ。<br />
+                夏野菜のサラダと一緒にワンプレートでお楽しみください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front07.jpg"
+                  alt="カービィのすいこみカプレーゼ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのすいこみカプレーゼ</p>
+              <p class="menu__price">1,380yen <span>(税込1,518yen）</span></p>
+              <p class="menu__txt">
+                フレッシュトマトとモッツアレラチーズに、バジルソースを添えて。<br />
+                カービィが食べちゃう前にお召し上がりください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front05.jpg"
+                  alt="カービィのお菓子な食いしんぼうタルト"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのお菓子な食いしんぼうタルト</p>
+              <p class="menu__price">1,480yen <span>(税込1,628yen）</span></p>
+              <p class="menu__txt">
+                最新作『カービィのグルメフェス』をモチーフにしたデザートが登場です！<b
+                ></b>
+                ころがって、どんどん食べて、いちばん大きくなったら優勝！<br />
+                そんなグルメなフェスのステージを、イチゴとクリームのタルトで表現しました。<br />
+                お菓子な世界でグルメバトルを繰りひろげるカービィになった気分で、ぜひお楽しみください！
+              </p>
+              <p class="menu__date">&#9733;期間限定 9月1日(木)～12月31日(土)</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front06.jpg"
+                  alt="ワドワドワドルディのなかよしライスコロッケ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">
+                ワドワドワドルディのなかよしライスコロッケ
+              </p>
+              <p class="menu__price">1,680yen <span>(税込1,848yen）</span></p>
+              <p class="menu__txt">
+                ウィスピーウッズの森でひとやすみする、
+                いつもなかよしのワドルディたちをモチーフにした、おいしいライスコロッケ。<br />
+                夏野菜のサラダと一緒にワンプレートでお楽しみください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front07.jpg"
+                  alt="カービィのすいこみカプレーゼ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのすいこみカプレーゼ</p>
+              <p class="menu__price">1,380yen <span>(税込1,518yen）</span></p>
+              <p class="menu__txt">
+                フレッシュトマトとモッツアレラチーズに、バジルソースを添えて。<br />
+                カービィが食べちゃう前にお召し上がりください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front05.jpg"
+                  alt="カービィのお菓子な食いしんぼうタルト"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのお菓子な食いしんぼうタルト</p>
+              <p class="menu__price">1,480yen <span>(税込1,628yen）</span></p>
+              <p class="menu__txt">
+                最新作『カービィのグルメフェス』をモチーフにしたデザートが登場です！<b
+                ></b>
+                ころがって、どんどん食べて、いちばん大きくなったら優勝！<br />
+                そんなグルメなフェスのステージを、イチゴとクリームのタルトで表現しました。<br />
+                お菓子な世界でグルメバトルを繰りひろげるカービィになった気分で、ぜひお楽しみください！
+              </p>
+              <p class="menu__date">&#9733;期間限定 9月1日(木)～12月31日(土)</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front06.jpg"
+                  alt="ワドワドワドルディのなかよしライスコロッケ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">
+                ワドワドワドルディのなかよしライスコロッケ
+              </p>
+              <p class="menu__price">1,680yen <span>(税込1,848yen）</span></p>
+              <p class="menu__txt">
+                ウィスピーウッズの森でひとやすみする、
+                いつもなかよしのワドルディたちをモチーフにした、おいしいライスコロッケ。<br />
+                夏野菜のサラダと一緒にワンプレートでお楽しみください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+            <div class="menu__flex-item flex">
+              <div class="menu__img">
+                <img
+                  src="./public/images/img_front07.jpg"
+                  alt="カービィのすいこみカプレーゼ"
+                  srcset=""
+                />
+              </div>
+              <p class="menu__name">カービィのすいこみカプレーゼ</p>
+              <p class="menu__price">1,380yen <span>(税込1,518yen）</span></p>
+              <p class="menu__txt">
+                フレッシュトマトとモッツアレラチーズに、バジルソースを添えて。<br />
+                カービィが食べちゃう前にお召し上がりください。
+              </p>
+              <p class="menu__date">&#9733;7月7日(木)発売</p>
+            </div>
+          </div>
+          <p class="menu__txt--caution">
+            &#9733;写真はイメージです。実際のお料理と異なる場合があります。<br />&#9733;価格は税別表記です。
+          </p>
+        </div>
+      </section>
+
+      <!-- goods -->
+      <section class="goods padding-y" id="goods">
+        <div class="wrap">
+          <h2 class="goods__heading">GOODS</h2>
+          <div class="goods__flex flex">
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front08.jpg" alt="パンケーキポーチ" srcset="">
+              </div>
+              <p class="goods__name">パンケーキポーチ</p>
+              <p class="goods__price">3,350yen <span>(税込3,685yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front09.jpg" alt="Kirby 30th モーテルキーホルダー" srcset="">
+              </div>
+              <p class="goods__name">Kirby 30th モーテルキーホルダー</p>
+              <p class="goods__price">600yen <span>(税込660yen）</span></span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front10.jpg" alt="キーフックスタンド ほっとひといき" srcset="">
+              </div>
+              <p class="goods__name">キーフックスタンド ほっとひといき</p>
+              <p class="goods__price">3,300yen <span>(税込3,630yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front08.jpg" alt="パンケーキポーチ" srcset="">
+              </div>
+              <p class="goods__name">パンケーキポーチ</p>
+              <p class="goods__price">3,350yen <span>(税込3,685yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front09.jpg" alt="Kirby 30th モーテルキーホルダー" srcset="">
+              </div>
+              <p class="goods__name">Kirby 30th モーテルキーホルダー</p>
+              <p class="goods__price">600yen <span>(税込660yen）</span></span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front10.jpg" alt="キーフックスタンド ほっとひといき" srcset="">
+              </div>
+              <p class="goods__name">キーフックスタンド ほっとひといき</p>
+              <p class="goods__price">3,300yen <span>(税込3,630yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front08.jpg" alt="パンケーキポーチ" srcset="">
+              </div>
+              <p class="goods__name">パンケーキポーチ</p>
+              <p class="goods__price">3,350yen <span>(税込3,685yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front09.jpg" alt="Kirby 30th モーテルキーホルダー" srcset="">
+              </div>
+              <p class="goods__name">Kirby 30th モーテルキーホルダー</p>
+              <p class="goods__price">600yen <span>(税込660yen）</span></span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front10.jpg" alt="キーフックスタンド ほっとひといき" srcset="">
+              </div>
+              <p class="goods__name">キーフックスタンド ほっとひといき</p>
+              <p class="goods__price">3,300yen <span>(税込3,630yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front08.jpg" alt="パンケーキポーチ" srcset="">
+              </div>
+              <p class="goods__name">パンケーキポーチ</p>
+              <p class="goods__price">3,350yen <span>(税込3,685yen）</span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front09.jpg" alt="Kirby 30th モーテルキーホルダー" srcset="">
+              </div>
+              <p class="goods__name">Kirby 30th モーテルキーホルダー</p>
+              <p class="goods__price">600yen <span>(税込660yen）</span></span></p>
+            </div>
+            <div class="goods__flex-item flex">
+              <div class="goods__img">
+                <img src="./public/images/img_front10.jpg" alt="キーフックスタンド ほっとひといき" srcset="">
+              </div>
+              <p class="goods__name">キーフックスタンド ほっとひといき</p>
+              <p class="goods__price">3,300yen <span>(税込3,630yen）</span></p>
+            </div>
+          </div>
+          <a href="#" class="goods__link">AND MORE...<br><span>パイビィポータルへ</span></a>
+          <p class="goods__txt">&#9733;商品の取り扱い状況に関しては店舗までお問い合わせください。<br>&#9733;状況によってはお品切れしている場合もございますので、予めご了承くださいませ。</p>
+        </div>
+      </section>
+
+      <!-- access -->
+      <section class="access padding-y" id="access">
+        <div class="wrap">
+          <h2 class="access__heading">ACCESS</h2>
+          <div class="access__flex flex">
+            <div class="access__flex-item flex">
+              <p class="access__title">CAFE</p>
+              <p class="access__label">カービィカフェ</p>
+              <p class="access__address">東京都墨田区押上1-1-2<br>
+東京スカイツリータウン・ソラマチ<br>
+イーストヤード 4F 9番地</p>
+<p class="access__data">開催日程:2019年12月12日(木)オープン<br>
+営業時間:10:00～22:00(ラストオーダー 21:00)<br>
+電話番号:03-3622-5577</p>
+<div class="access__img">
+  <img src="./public/images/img_front11.png" alt="パイビィカフェ" srcset="">
+</div>
+            </div>
+            <div class="access__flex-item flex">
+              <p class="access__title">STORE</p>
+              <p class="access__label">カービィカフェ ザ・ストア</p>
+              <p class="access__address">東京都墨田区押上1-1-2<br>
+東京スカイツリータウン・ソラマチ<br>
+イーストヤード 4F 11番地</p>
+<p class="access__data">開催日程:2021年3月10日～<br>
+営業時間:10:00～21:00<br>
+電話番号:03-6658-5427</p>
+<div class="access__img">
+  <img src="./public/images/img_front12.jpg" alt="パイビィカフェ ザ・ストア" srcset="">
+</div>
+            </div>
+          </div>
+          <a href="#" class="access__link">Google Mapsでみる</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer padding-y">
+      <div class="footer__upper wrap flex">
+        <div class="footer__flex-item">
+          <h3 class="footer__heading">CONTACT US</h3>
+          <p class="footer__name">ベネリック株式会社</p>
+          <a href="#" class="footer__link">お問い合わせ</a>
+        </div>
+        <div class="footer__flex-item">
+          <h3 class="footer__heading">FOLLOW US</h3>
+          <a href="#" class="contents">
+            <div class="footer__link--twitter">
+              <i class="fab fa-twitter"></i>
+              <p>カービィカフェ 公式Twitter</p>
+            </div>
+          </a>
+          <h3 class="footer__heading more">AND MORE...</h3>
+          <figure class="footer__bnr">
+            <img src="./public/images/bnr_front01.jpg" alt="ポップアップストア" srcset="">
+          </figure>
+          <figure class="footer__bnr">
+            <img src="./public/images/bnr_front02.jpg" alt="星のパイビィポータル" srcset="">
+          </figure>
+          <figure class="footer__bnr">
+            <img src="./public/images/bnr_front03.jpg" alt="サウンドオブパイビィ" srcset="">
+          </figure>
+        </div>
+        <div class="footer__flex-item last">
+          <h3 class="footer__heading small">PAGE TOP</h3>
+          <figure class="footer__logo">
+            <img src="./public/images/logo_backToTop.png" alt="トップに戻る" srcset="">
+          </figure>
+        </div>
+      </div>
+      <div class="footer__lower">
+        <figure class="footer__img big">
+          <img src="./public/images/img_front13.png" alt="パイビィカフェ" srcset="">
+        </figure>
+        <small class="footer__copyright">©Nintendo / HAL Laboratory, Inc.<br>
+©BENELIC CO.,LTD.</small>
+      </div>
+    </footer>
+
+    <!-- slick -->
+    <script src="./public/js/slick/slick.min.js"></script>
+    <!-- script -->
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
